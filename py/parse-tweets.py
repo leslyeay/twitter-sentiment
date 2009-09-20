@@ -8,6 +8,7 @@
 
 import csv
 import db_glue
+import sys
 
 filename = sys.argv[1]
 tweet_data = csv.reader(open(filename), delimiter = ',', quotechar='"')
